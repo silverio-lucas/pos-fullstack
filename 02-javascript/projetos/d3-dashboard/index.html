@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gráfico de Barras D3JS</title>
+    <link href="grafico.css" rel="stylesheet" />
+    <script src="grafico.js"></script>
+    <script>
+      onload = () => {
+        grafico({
+          seletor: "#grafico",
+          dados: [156, 273, 120, 115, 44, 260, 133],
+          largura: 600,
+          altura: 400,
+        });
+      };
+    </script>
+  </head>
+  <body>
+    <svg id="grafico"></svg>
+    <script src="script.js"></script>
+  </body>
+</html>
