@@ -2,35 +2,72 @@
 
 Implementação prática da disciplina de JavaScript.
 
-Cada pasta representa uma aula e contém código executável.
-
 ---
 
 ## Estrutura
 
-- `01-*` até `56-*` → aulas da disciplina
-- cada pasta:
-  - `index.html`
-  - `script.js`
+### Unidade 1 — Linguagem JavaScript
 
-- `projetos/` → aplicações mais completas
+`./unidade-1/`
+
+Fundamentos da linguagem:
+
+- variáveis, tipos, operadores
+- funções, arrays, objetos
+- DOM e formulários
 
 ---
 
-## Como usar
+### Unidade 2 — APIs e Bibliotecas
 
-1. Entre em qualquer pasta de aula
-2. Abra o `index.html` no navegador
-3. Veja o código no `script.js`
+`./unidade-2/`
+
+Integração com navegador e bibliotecas:
+
+- JSON, AJAX, Fetch
+- APIs do navegador
+- jQuery e D3.js
+
+---
+
+### Unidade 3 — JavaScript Avançado
+
+`./unidade-3/`
+
+Conceitos avançados:
+
+- closures, prototype, this
+- programação assíncrona
+- módulos e debugging
 
 ---
 
 ## Projetos
 
-- D3 Dashboard → `./projetos/d3-dashboard`
+`./projetos/`
+
+- D3 Dashboard
 
 ---
 
-## Observação
+## Como executar
 
-A organização segue a sequência do curso, sem agrupamentos artificiais.
+Abra qualquer `index.html` no navegador.
+
+---
+
+## Organização
+
+- Cada aula = 1 pasta
+- Cada pasta contém:
+  - `index.html`
+  - `script.js`
+
+---
+
+## Objetivo
+
+- Consolidar fundamentos
+- Aplicar manipulação de DOM
+- Trabalhar com APIs reais
+- Evoluir para projetos práticos
