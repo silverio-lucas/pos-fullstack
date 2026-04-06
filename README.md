@@ -17,23 +17,23 @@ Construir domínio real em desenvolvimento web moderno, com foco em:
 
 ## Estrutura do Curso
 
-01-html-css/ ✔ concluído  
-02-javascript/ 🔄 em andamento  
-03-database/ ⏳ próximo  
-04-node/ ⏳  
-05-ux/ ⏳  
-06-react/ ⏳  
-07-apis/ ⏳  
-08-tests/ ⏳  
-09-flutter/ ⏳  
-10-architecture/ ⏳  
-11-python/ ⏳  
-12-devops/ ⏳  
-13-agile/ ⏳  
-14-backend-architecture/ ⏳  
-15-analytics/ ⏳  
-16-humanities/ ⏳  
-tcc/ ⏳
+01-html-css/                 ✔ concluído  
+02-javascript/              🔄 em andamento  
+03-database/                ⏳ próximo  
+04-node/                    ⏳  
+05-ux/                      ⏳  
+06-react/                   ⏳  
+07-apis/                    ⏳  
+08-tests/                   ⏳  
+09-flutter/                 ⏳  
+10-architecture/            ⏳  
+11-python/                  ⏳  
+12-devops/                  ⏳  
+13-agile/                   ⏳  
+14-backend-architecture/    ⏳  
+15-analytics/               ⏳  
+16-humanities/              ⏳  
+tcc/                        ⏳  
 
 ---
 
@@ -45,10 +45,10 @@ modulo/
 ├── README.md  
 ├── unidade-01/  
 ├── unidade-02/  
-└── projetos/
+└── projetos/  
 
-- unidades → conteúdo estruturado
-- projetos → aplicações práticas
+- unidades → conteúdo estruturado  
+- projetos → aplicações práticas  
 
 ---
 
@@ -56,40 +56,39 @@ modulo/
 
 Os projetos estão em:
 
-\*/projetos/
+*/projetos/
 
 Diretrizes:
-
-- foco em implementação real
-- evitar exemplos triviais
-- código organizado e legível
-- evolução progressiva de complexidade
+- foco em implementação real  
+- evitar exemplos triviais  
+- código organizado e legível  
+- evolução progressiva de complexidade  
 
 ---
 
 ## Escopo Técnico
 
-- JavaScript moderno (ES6+, async, módulos)
-- Manipulação de DOM
-- Visualização de dados (D3.js)
-- Consumo de APIs (fetch, async/await)
-- Backend com Node.js
-- Banco de dados (SQL e NoSQL)
-- Arquitetura de software
-- Testes automatizados
-- DevOps (CI/CD, containers)
-- React
-- UX e design de interfaces
-- Mobile (Flutter)
+- JavaScript moderno (ES6+, async, módulos)  
+- Manipulação de DOM  
+- Visualização de dados (D3.js)  
+- Consumo de APIs (fetch, async/await)  
+- Backend com Node.js  
+- Banco de dados (SQL e NoSQL)  
+- Arquitetura de software  
+- Testes automatizados  
+- DevOps (CI/CD, containers)  
+- React  
+- UX e design de interfaces  
+- Mobile (Flutter)  
 
 ---
 
 ## Estratégia de Estudo
 
-- teoria mínima necessária
-- foco em prática
-- 1 projeto relevante por módulo
-- construção incremental de portfólio
+- teoria mínima necessária  
+- foco em prática  
+- 1 projeto relevante por módulo  
+- construção incremental de portfólio  
 
 ---
 
@@ -101,7 +100,7 @@ Diretrizes:
 [⏳] Node.js  
 [⏳] React  
 [⏳] DevOps  
-[⏳] Arquitetura
+[⏳] Arquitetura  
 
 ---
 
