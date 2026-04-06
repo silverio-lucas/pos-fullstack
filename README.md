@@ -16,7 +16,7 @@ Construir domínio real em desenvolvimento web moderno, com foco em:
 ---
 
 ## Estrutura do Curso
-
+```
 01-html-css/                 ✔ concluído  
 02-javascript/              🔄 em andamento  
 03-database/                ⏳ próximo  
@@ -34,19 +34,19 @@ Construir domínio real em desenvolvimento web moderno, com foco em:
 15-analytics/               ⏳  
 16-humanities/              ⏳  
 tcc/                        ⏳  
-
+```
 ---
 
 ## Estrutura Interna
 
 Cada disciplina segue o padrão:
-
+```
 modulo/
 ├── README.md  
 ├── unidade-01/  
 ├── unidade-02/  
 └── projetos/  
-
+```
 - unidades → conteúdo estruturado  
 - projetos → aplicações práticas  
 
