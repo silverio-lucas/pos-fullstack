@@ -1,155 +1,120 @@
-# Banco de Dados — Relacional e Não Relacional
+# Banco de Dados (Relacionais e Não Relacionais)
 
-Implementações práticas da disciplina de Banco de Dados, cobrindo SQL, NoSQL e diferentes modelos de persistência.
-
----
-
-## Objetivo
-
-Consolidar fundamentos de dados com foco em:
-
-- modelagem relacional
-- escrita de queries eficientes
-- uso de bancos NoSQL
-- escolha de arquitetura de persistência
+Implementação prática dos conceitos da disciplina, organizada por unidade e tópicos.
 
 ---
 
 ## Estrutura
 
+````bash
+03-database/
+├── unidade-01-relacional/
+│   ├── 01-introducao/
+│   │   ├── 1.1-introducao/
+│   │   └── 1.2-modelo-dados/
+│   │
+│   ├── 02-modelo-relacional/
+│   │   ├── 2.1-modelo-relacional/
+│   │   ├── 2.2-restricoes/
+│   │   ├── 2.3-operacoes/
+│   │   ├── 2.4-modelagem-er/
+│   │   └── 2.5-normalizacao/
+│   │
+│   ├── 03-sql/
+│   │   ├── 3.1-apex/
+│   │   ├── 3.2-intro-sql/
+│   │   ├── 3.3-create/
+│   │   ├── 3.4-alter-drop/
+│   │   ├── 3.5-dml/
+│   │   ├── 3.6-select/
+│   │   ├── 3.7-expressoes/
+│   │   ├── 3.8-where/
+│   │   ├── 3.9-operadores/
+│   │   ├── 3.10-agregacoes/
+│   │   ├── 3.11-group-by/
+│   │   ├── 3.12-subqueries/
+│   │   ├── 3.13-joins/
+│   │   └── 3.14-final/
+│   │
+│   ├── material/
+│   ├── exercicios/
+│   └── extra/
+│
+├── unidade-02-nosql/
+├── unidade-03-documentos/
+└── unidade-04-grafos/# Banco de Dados (Relacionais e Não Relacionais)Implementação prática dos conceitos da disciplina, organizada por unidade e tópicos.---## Estrutura```bash03-database/├── unidade-01-relacional/│   ├── 01-introducao/│   │   ├── 1.1-introducao/│   │   └── 1.2-modelo-dados/│   ││   ├── 02-modelo-relacional/│   │   ├── 2.1-modelo-relacional/│   │   ├── 2.2-restricoes/│   │   ├── 2.3-operacoes/│   │   ├── 2.4-modelagem-er/│   │   └── 2.5-normalizacao/│   ││   ├── 03-sql/│   │   ├── 3.1-apex/│   │   ├── 3.2-intro-sql/│   │   ├── 3.3-create/│   │   ├── 3.4-alter-drop/│   │   ├── 3.5-dml/│   │   ├── 3.6-select/│   │   ├── 3.7-expressoes/│   │   ├── 3.8-where/│   │   ├── 3.9-operadores/│   │   ├── 3.10-agregacoes/│   │   ├── 3.11-group-by/│   │   ├── 3.12-subqueries/│   │   ├── 3.13-joins/│   │   └── 3.14-final/│   ││   ├── material/│   ├── exercicios/│   └── extra/│├── unidade-02-nosql/├── unidade-03-documentos/└── unidade-04-grafos/
 
-unidade-01-relacional/
-unidade-02-nosql/
-unidade-03-documentos/
-unidade-04-grafos/
-
-
----
-
-## Unidade 01 — Banco de Dados Relacional
-
-Conteúdo:
-
-- Introdução a banco de dados
-- Modelo relacional
-- Normalização
-- SQL (DDL, DML, SELECT, JOIN, GROUP BY, etc.)
-
-Estrutura:
-
-
-01-introducao/
-02-modelo-relacional/
-03-sql/
-material/
-exercicios/
-projetos/
-
-
-Destaques:
-
-- criação de tabelas
-- consultas complexas
-- modelagem de banco (ER → relacional)
-
----
-
-## Unidade 02 — NoSQL
-
-Conteúdo:
-
-- conceitos de NoSQL
-- CAP Theorem
-- BASE
-- bancos chave-valor (Redis)
-
-Estrutura:
+Padrão de Organização
 
 
-01-introducao/
-02-fundamentos/
-03-chave-valor/
-material/
-exercicios/
-projetos/
+Cada tópico possui sua própria pasta
 
 
----
-
-## Unidade 03 — Banco de Dados de Documentos
-
-Conteúdo:
-
-- MongoDB
-- documentos e coleções
-- consultas e relacionamentos
-
-Estrutura:
+Cada pasta contém:
 
 
-01-mongodb/
-material/
-exercicios/
-projetos/
+README.md → explicação teórica
 
 
----
-
-## Unidade 04 — Banco de Dados de Grafos
-
-Conteúdo:
-
-- grafos e modelagem
-- Neo4j
-- persistência poliglota
-
-Estrutura:
+código (SQL, scripts, exemplos)
 
 
-01-neo4j/
-02-persistencia-poliglota/
-material/
-exercicios/
-projetos/
+assets (quando necessário)
 
 
----
-
-## Projetos
-
-Os projetos estão organizados dentro de:
 
 
-*/projetos/
+
+Objetivo
 
 
-Foco:
+Consolidar fundamentos de banco de dados
 
-- modelagem real de dados
-- queries aplicadas
-- uso prático de diferentes tipos de banco
 
----
+Praticar SQL e modelagem
 
-## Tecnologias
 
-- SQL
-- Oracle / PostgreSQL (conceitos)
-- MongoDB
-- Redis
-- Neo4j
+Explorar NoSQL (Redis, MongoDB, grafos)
 
----
 
-## Estratégia
+Criar base sólida para backend
 
-- teoria mínima necessária
-- foco em prática
-- consolidação por projetos
-- progressão: relacional → NoSQL → múltiplos modelos
 
----
 
-## Status
+Status
 
-Em andamento.
+
+Unidade 01: 🔄 em andamento
+
+
+Unidade 02: ⏳
+
+
+Unidade 03: ⏳
+
+
+Unidade 04: ⏳
+
+
+---## Ajustes adicionais (você não fez ainda)1. Remover lixo do macOS:```bashecho .DS_Store >> .gitignoregit rm -r --cached .git add .git commit -m "chore: remove DS_Store"
+
+
+Corrigir pasta antiga com espaço no nome:
+
+
+rm -rf "03-database/ UNIDADE 1 - BANCO DE DADOS RELACIONAIS"
+
+Resultado
+
+
+README consistente com a estrutura
+
+
+Navegação clara no GitHub
+
+
+Repositório vira portfólio técnico real (não só dump de arquivos)
+
+
+Se quiser, próximo passo: gerar template automático para cada README interno (estrutura padrão de estudo + exemplos SQL).
+````
